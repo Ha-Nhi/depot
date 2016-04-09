@@ -14,7 +14,6 @@ class ProductsController < ApplicationController
 
   # GET /products/new
   def new
-        define_st
     @product = Product.new
   end
 
